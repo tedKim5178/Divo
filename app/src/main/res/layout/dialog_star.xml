@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="How Much Do You Like It?"
+        android:textSize="14dp"
+        android:fontFamily="monospace"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:paddingTop="6dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RatingBar
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:stepSize="0.5"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:id="@+id/small_rating_bar_in_star_dialog"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:paddingRight="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:paddingRight="3dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:text="Cancel"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:id="@+id/cancel_button_in_star_dialog"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:paddingLeft="3dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/custom_button"
+                android:fontFamily="monospace"
+                android:text="Confirm"
+                android:id="@+id/okay_button_in_star_dialog"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

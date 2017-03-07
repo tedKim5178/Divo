@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_with_contents"
+            android:descendantFocusability="blocksDescendants">
+
+                <LinearLayout
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/linearlayout_container"
+                    android:orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/word_definition_cardview"
+                            android:visibility="invisible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:padding="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/ic_youtube_searched_for_black_24dp"/>
+                                    <TextView
+                                        android:paddingLeft="8dp"
+                                        android:gravity="center_vertical"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/search_result_textView"
+                                        android:typeface="monospace"
+                                        android:textStyle="bold"
+                                        android:textSize="18dp"
+                                        android:textColor="#000000"/>
+                                </LinearLayout>
+
+                                    <TextView
+                                        android:padding="6dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/word_definition"
+                                        android:textSize="12dp"
+                                        android:gravity="center_vertical"
+                                        android:fontFamily="monospace"
+                                        android:textColor="#000000" />
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:paddingTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/recycler_view_in_voca">
+                    </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/search_progressbar_layout_in_voca">-->
+                    <!--<ProgressBar-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:visibility="invisible"-->
+                        <!--android:id="@+id/progressBar_in_voca" />-->
+                <!--</LinearLayout>-->
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:id="@+id/view_when_divo_clicked">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_in_first_view"
+                android:text="Divo's Recommendation"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_view_first_place">
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+</RelativeLayout>

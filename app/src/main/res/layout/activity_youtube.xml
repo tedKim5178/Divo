@@ -1,0 +1,182 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEEEEE">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        tools:context="com.example.mk.mydramabulary.VideoActivity">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_in_youtube_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:subtitleTextColor="#FFFFFF"
+            android:theme="@style/ToolBarStyle"
+            android:titleTextColor="#FFFFFF"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:descendantFocusability="blocksDescendants">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EEEEEE"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--android:paddingTop="16dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:text="Title : "-->
+                    <!--android:textColor="#FFFFFF"-->
+                    <!--android:background="#FF0000"-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/show_title_this_video_in_youtube_activity"/>-->
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:layout_weight="2"
+                    android:id="@+id/youtube_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </com.google.android.youtube.player.YouTubePlayerView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:id="@+id/title_linear_layout_in_youtube_activity"
+                        android:background="#EEEEEE"
+                        android:orientation="vertical">
+
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardview_in_youtube_activity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            card_view:cardCornerRadius="3dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/ic_chat_black_24dp"
+                                    android:layout_gravity="center_vertical"/>
+                                <TextView
+                                    android:paddingLeft="16dp"
+                                    android:textColor="#000000"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="monospace"
+                                    android:textSize="16dp"
+                                    android:text="Subtitles"
+                                    android:gravity="center_vertical"/>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardview_recycler_in_youtube_activity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            card_view:cardCornerRadius="3dp">
+                                <android.support.v7.widget.RecyclerView
+                                    android:paddingTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/recycler_view_in_youtube">
+                                </android.support.v7.widget.RecyclerView>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <!--<android.support.v7.widget.CardView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+                        <!--<TextView-->
+                        <!--android:textSize="12dp"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:fontFamily="monospace"-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:id="@+id/text_in_youtube_activity"/>-->
+                        <!--</android.support.v7.widget.CardView>-->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RatingBar
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:focusableInTouchMode="false"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:focusable="false"
+                                android:isIndicator="true"
+                                style="@style/CustomRatingBar"
+                                android:numStars="5"
+                                android:id="@+id/show_rating_bar_in_video_activity"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:textColor="#000000"
+                                android:fontFamily="monospace"
+                                android:id="@+id/show_rating_in_text_in_video_activity"/>
+                            <Button
+                                android:text="Rating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:textStyle="bold"
+                                android:fontFamily="monospace"
+                                android:background="@drawable/custom_button"
+                                android:id="@+id/give_star_button_in_youtube_activity"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

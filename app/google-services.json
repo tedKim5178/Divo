@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "894330957153",
+    "firebase_url": "https://mydictionary-157907.firebaseio.com",
+    "project_id": "mydictionary-157907",
+    "storage_bucket": "mydictionary-157907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894330957153:android:f54124ada5119b60",
+        "android_client_info": {
+          "package_name": "com.example.mk.mydramabulary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894330957153-todgemm4li35vt5i018emruv1c4kv768.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mk.mydramabulary",
+            "certificate_hash": "e71b2feb136eb8cadd07af2fe6a2183bf6ae6b40"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYRIjLsHvd5x6xZ1w1KeNYFHHfmVQAV88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

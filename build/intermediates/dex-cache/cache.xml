@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_4ef787a9441ecf7c72adb86fc78619b3c43f5310.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\libs\jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\jsoup-1.10.2_b77cd9bacd1c4e43d95d1047b846edee71823e43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_5476bcccb18005dfd6d315905e8896ea5c7b90c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_c6310007c3e68a91694c215d432f39bbf6556ed8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_f31043435eae5e4daf4723e1fd0f96413f245747.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_5f51554691725b467b9060c0be6fc9ccbed627f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_c7b17166c6ee50df7524f6016378a6af3a69dbcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\Documents\GitHub\MyDramabulary\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_5d7c62635b4bb149ec59f851857b44fd4f040a38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_6e0920490a1a2593b5c5d271e68c55e8b5e8ec99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mk\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\mk\Documents\GitHub\MyDramabulary\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_e775426e4f523a11e74d1e5ffa058d429f4f0856.jar" />
+    </item>
+
+</items>
