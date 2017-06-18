@@ -90,8 +90,7 @@ public class YoutubeAdapter extends RecyclerView.Adapter<YoutubeAdapter.YoutubeV
         if(rating_count != 0){
             average_rating = rating_sum/rating_count;
         }
-        Log.d(TAG, "리사이클러뷰테스트으 onbindviewholder position = " + position);
-        Log.d(TAG, "리사이클러뷰테스트으 rating_count, rating_sum = " + dataInfos.get(position).getRating_count() + " , " + dataInfos.get(position).getRating_sum());
+        Log.d(TAG, "리사이클러뷰테스트 onbindviewholder position = " + position);
         Glide.with(mContext).load(Uri.parse("http://img.youtube.com/vi/"+ dataInfos.get(position).getYoutube_id()+"/0.jpg")).override(500,300).into(holder.thumbnail_image);
 
 

@@ -1,9 +1,12 @@
 package com.example.mk.mydramabulary.activities;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -142,6 +145,7 @@ public class MainActivity extends AppCompatActivity implements VocaFragment.Cust
                     }else{
                         turn = DRAMAFRAGMENT_TURN;
                     }
+                    
                     viewPager.setCurrentItem(tab.getPosition());
                 }
 

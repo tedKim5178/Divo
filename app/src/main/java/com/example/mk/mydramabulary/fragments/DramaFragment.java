@@ -71,19 +71,14 @@ public class DramaFragment extends Fragment{
         call.enqueue(new Callback<TokenInfo>(){
             @Override
             public void onResponse(Call<TokenInfo> call, Response<TokenInfo> response) {
-                Log.d(TAG, "레트로핏테스트(우하하성공) ");
                 if(response.isSuccessful()){
                     TokenInfo tokenInfo = (TokenInfo)response.body();
-                    Log.d(TAG, "레트로핏테스트 tokenInfo : " + tokenInfo.getAccess_token() + ", " + tokenInfo.getRefresh_in() + ", " + tokenInfo.getToken_type());
                 }else{
-                    Log.d(TAG, "레트로핏테스트 " + response.message() + ", " +response.errorBody() + ", " + response.code() + ", " + response.body() + ", " +response.headers());
-                    Log.d(TAG, "[레트로핏테스트(우하하)] FAIL");
                 }
             }
 
             @Override
             public void onFailure(Call<TokenInfo> call, Throwable t) {
-                Log.d(TAG, "[레트로핏테스트(우하하)] onFail" + t.getMessage() + t.toString() + t.getLocalizedMessage());
                 t.printStackTrace();
             }
         });

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -22,7 +23,10 @@
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        app:tabBackground="@drawable/tab_color_selector"
+        app:tabTextColor="@color/colorPrimary"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabIndicatorColor="@color/colorTabSelected"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 

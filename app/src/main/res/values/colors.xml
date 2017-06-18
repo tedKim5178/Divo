@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#E32524</color>
+    <color name="colorPrimary">#0C41A2</color>
     <color name="colorPrimaryDark">#F02F26</color>
     <color name="colorAccent">#000000</color>
     <color name="colorWhite">#CCCCCC</color>
     <color name="colorYellow">#FFCC00</color>
+    <color name="colorTabSelected">#ce317f</color>
+    <color name="colorTabUnselected">#EEEEEE</color>
 </resources>
